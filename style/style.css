@@ -1,0 +1,213 @@
+.kreon-basic {
+    font-family: "Kreon", serif;
+    font-optical-sizing: auto;
+    font-weight: 300;
+    font-style: normal;
+  }
+  
+.jua-regular {
+    font-family: "Jua", serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+
+p {
+    font-family: "Kreon";
+    font-weight: 400;
+    font-style: normal;
+    min-height: 50px;
+  }
+
+h3 {
+    font-family: "Kreon";
+    font-weight: 400;
+    font-style: normal;
+    font-size: 14px;
+}
+
+img {
+    display: block;
+}
+
+/* page 1 */
+#home { 
+    background-image: url("../images/BG1-img.png");
+    object-fit: cover;
+    margin: 0;
+    background-repeat: no-repeat;
+}
+
+#home main section:nth-of-type(1){
+    background-image: url("../images/Branch1-img.png");
+    background-repeat: no-repeat;
+    padding: 24px 60px 18px 20px;
+}
+
+#home main section:nth-of-type(2){
+    background-image: url("../images/Branch2-img.png");
+    background-repeat: no-repeat;
+    padding: 20px 20px 18px 80px;
+    text-align: right;
+}
+/* button */
+#home nav section {
+    display: flex;
+    }
+
+#home nav a {
+    margin: 140px 0px 30px 85px;
+    padding: 20px;
+    background-color: rgb(250, 255, 155);
+    border-radius: 12px;
+    box-shadow: 4px 4px 3px -3px grey;
+    color: black;
+    font-family: "Jua";
+    font-size: 20px;
+    text-align: center;
+    text-decoration: none;
+}
+
+/* page 2 */
+
+#uitleg {
+    background-image: url("../images/BG2-img.png");
+    object-fit: cover;
+    margin: 0;
+}
+
+#uitleg p{
+    margin: 0;
+    color: white;
+    font-size: 20px;
+}
+
+#uitleg main section:nth-of-type(1) {
+    background-color: #409742;
+    display: flex;
+}
+
+#uitleg main section:nth-of-type(1) p{
+    padding: 120px 0px 100px 20px;
+}
+
+#uitleg main section:nth-of-type(2) {
+   display: flex;
+   margin: 0;
+}
+
+#uitleg main section:nth-of-type(2) p{
+    font-size: 14px;
+    color: black;
+    margin: 45px 0px 0px 6px;
+    display: flex;
+}
+
+#uitleg main section:nth-of-type(3){
+    background-color: #5AC65E;
+    padding: 40px 60px 40px 20px;
+}
+
+#uitleg main section:nth-of-type(4) {
+    background-image: url(../images/Lagestruiken-img.png);
+    /*356px total (vertically)*/
+    padding: 190px 20px 166px 50px;
+    text-align: right;
+}
+
+#uitleg main section:nth-of-type(5) {
+    background-color: #409742;
+    padding: 40px 40px 40px 20px;
+}
+
+#uitleg main section:nth-of-type(6) {
+    background-color: #7E4829;
+    padding:3px 20px 10px 20px;
+}
+
+/* buttons */
+#uitleg nav{
+    display: flex;
+    justify-content: center;
+    background-color: #7E4829;
+    padding-bottom: 50px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    font-family: "Jua";
+    font-weight: 400;
+}
+
+#uitleg nav section:nth-of-type(1){
+    width: 236px;
+    height: 60px;
+    background-color: #D9D9D9;
+    border-radius: 10px;
+    margin: 40px 69.5px 50px 69.5px;
+    padding: 20px 0px 0px 0px;
+} 
+
+#uitleg nav section:nth-of-type(1) a {
+    text-decoration: none;
+    font-size: 30px;
+    color: black;
+}
+
+#uitleg nav section:nth-of-type(2){
+    width: 20%;
+    background-color: #D9D9D9;
+    border-radius: 10px;
+    margin-left: 10px;
+} 
+
+#uitleg nav section:nth-of-type(2) a {
+    text-decoration: none;
+    font-size: 14px;
+    color: black;
+}
+
+/* page 3 */
+#waarom {
+    background-image: url("../images/BG3-img.png");
+    object-fit: cover;
+    margin: 0;
+    font-size: 20px;
+}
+
+#waarom main section:nth-of-type(1) {
+    margin: 100px 30px 0px 30px
+}
+
+#waarom main section:nth-of-type(2) {
+    margin: 40px 30px 0px 30px
+}
+
+#waarom main section:nth-of-type(3) {
+    margin: 40px 30px 0px 30px;
+    font-size: 14px;
+}
+
+/* buttons */
+#waarom nav {
+    margin-top: 60px;
+    display: flex;
+    justify-content: space-around;
+
+}
+
+#waarom nav section {
+    display: flex;
+    width: 35%;
+    height: 20%;
+    background-color: rgb(250, 255, 155);
+    border-radius: 10px;
+    justify-content: center;
+    align-items: center;
+
+} 
+
+#waarom nav section a {
+    text-decoration: none;
+    color: black;
+    font-family: "Jua";
+    font-weight: 400;
+}
